@@ -1,4 +1,5 @@
 var glslify = require('glslify')
+var THREE = require('three')
 var vert = glslify(__dirname + '/shader.vert')
 var frag = glslify(__dirname + '/shader.frag')
 
